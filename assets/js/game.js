@@ -74,7 +74,7 @@ var Game = {
     
     floating_text : function(pos_x, pos_y, text) {
         var txt = game.add.text(pos_x, pos_y, text, text_style_small);
-        game.time.events.add(1000, txt.destroy(), this)
+        //game.time.events.add(1000, txt.destroy(), this)
         // move text
         //
         
